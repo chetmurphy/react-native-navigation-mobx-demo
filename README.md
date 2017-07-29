@@ -1,3 +1,15 @@
+# Conversion to typescript
+
+Steps:
+
+1. Extract classes to their own js files.
+
+TODO:
+
+1. Change file types in the 'app' folder to *.tsx files and correct all warnings.
+
+## The orginial README created by create-react-native-app is below.
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
