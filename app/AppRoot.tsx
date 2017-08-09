@@ -31,7 +31,7 @@ class AppRoot extends React.Component {
 
     if (__DEV__ && config.NAV_STORE_LOGGING) {
       mobx.autorun(() => {
-         console.groupCollapsed('NAV STORE');
+        if (!!console.groupCollapsed) console.groupCollapsed('NAV STORE');
         console.log('%cAppRoot autorun this.store.navigationState: ' +
           JSONPrettify(this.store.navigationState), 'color: darkgreen; font-weight: 900;')
         console.log('%cAppRoot autorun this.store.navigationState.screenProps: ' +
