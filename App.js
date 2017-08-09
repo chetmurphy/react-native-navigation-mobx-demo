@@ -1,6 +1,2 @@
-import App from './app/AppRoot';
+import App from './build/AppRoot';
 export default App; 
-
-// Setup logging options using process.env.LOGGING as a guard like this
-// if(process.env.LOGGING) { /* put console.log statements here*/ }
-process.env['LOGGING'] = 1;
